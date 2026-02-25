@@ -1,7 +1,6 @@
 import React, { useRef, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import DoveLogo from '../components/icons/DoveLogo';
 
 gsap.registerPlugin(ScrollTrigger);
 
