@@ -190,7 +190,6 @@ const HeroSection: React.FC = () => {
         >
           {/* Logo */}
           <div ref={logoRef} className="mb-6">
-            {/* <DoveLogo className="w-16 h-16 lg:w-20 lg:h-20" color="#F6EFE6" /> */}
 
              <img src='https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/a-i-art-app-flutter-flowx-replicate-qxhyh7/assets/wt26kq9p8bkc/Vector_98.png'/>
 
