@@ -7,14 +7,7 @@ import { Cloud2 } from '../components/icons/CloudShapes';
 gsap.registerPlugin(ScrollTrigger);
 
 const features = [
-  {
-    icon: BookIcon,
-    title: 'Evangelio diario',
-    description: 'Lectura y homilía generada con IA en minutos. Profunda, clara y personalizada para tu día.',
-    color: 'bg-terracotta/10',
-    screen: '/images/app-screen-5.png'
-  },
-  {
+   {
     icon: RosaryIcon,
     title: 'Rosario guiado',
     description: 'Reza con audio calmado que acompaña cada misterio. Una experiencia inmersiva y espiritual.',
@@ -22,11 +15,19 @@ const features = [
     screen: '/images/app-screen-3.png'
   },
   {
-    icon: PrayerIcon,
-    title: 'Oración y comunidad',
-    description: 'Intenciones, reflexiones y fraternidad en la palma de tu mano. Comparte tu fe.',
+    icon: BookIcon,
+    title: 'Letanías',
+    description: 'Reza las letanías tradicionales con una lectura clara y pausada. Ideal para acompañar tu momento de oración.',
     color: 'bg-terracotta/10',
-    screen: '/images/app-screen-2.png'
+    screen: '/images/app-screen-7.jpeg'
+  },
+ 
+  {
+    icon: PrayerIcon,
+    title: 'Rosario Guiado',
+    description: 'Vive el rosario de manera única: escucha la oración con una imagen inspiradora, sigue un modo interactivo donde el rosario se construye paso a paso, o reza acompañado de un hermoso video.',
+    color: 'bg-terracotta/10',
+    screen: '/images/app-screen-6.jpeg'
   }
 ];
 

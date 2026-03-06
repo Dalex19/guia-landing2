@@ -22,7 +22,7 @@ const steps = [
     number: '03',
     icon: RosaryIcon,
     title: 'Reza con GUÍA',
-    description: 'Evangelio, Rosario o lectio. Tu compañía espiritual.'
+    description: 'Rosario, letanías o lectio. Tu compañía espiritual.'
   }
 ];
 

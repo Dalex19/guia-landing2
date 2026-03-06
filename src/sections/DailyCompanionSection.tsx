@@ -123,7 +123,7 @@ const DailyCompanionSection: React.FC = () => {
             ref={bodyRef}
             className="font-sans text-taupe text-lg leading-relaxed max-w-md mx-auto lg:mx-0"
           >
-            Evangelio, oración y Rosario… en un solo lugar. Todo lo que necesitas para nutrir tu fe, cada día.
+            Rosario, oración y Letanías… en un solo lugar. Todo lo que necesitas para nutrir tu fe, cada día.
           </p>
         </div>
 
@@ -150,8 +150,8 @@ const DailyCompanionSection: React.FC = () => {
             </div>
             {/* Label */}
             <div className="absolute -bottom-14 left-1/2 -translate-x-1/2 text-center w-full">
-              <p className="font-serif text-espresso font-semibold text-sm lg:text-base">Evangelio del día</p>
-              <p className="font-sans text-taupe text-xs">Lectura + homilía con IA</p>
+              <p className="font-serif text-espresso font-semibold text-sm lg:text-base"></p>
+              <p className="font-sans text-taupe text-xs"></p>
             </div>
           </div>
 

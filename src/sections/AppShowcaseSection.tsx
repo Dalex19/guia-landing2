@@ -130,7 +130,7 @@ const AppShowcaseSection: React.FC = () => {
 
         {/* Feature Tags */}
         <div className="flex flex-wrap justify-center gap-4 mt-16">
-          {['Evangelio diario', 'Rosario guiado', 'Homilía con IA', 'Audio calmado', 'Modo offline'].map((tag, index) => (
+          {[ 'Rosario guiado', 'Letanías', 'Audio calmado'].map((tag, index) => (
             <span 
               key={index}
               className="px-5 py-2.5 bg-parchment/10 text-parchment rounded-full text-sm font-medium border border-parchment/20"

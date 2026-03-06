@@ -207,7 +207,7 @@ const HeroSection: React.FC = () => {
             ref={subheadlineRef}
             className="font-sans text-parchment/90 text-base md:text-lg leading-relaxed mb-8 max-w-md"
           >
-            Un espacio donde la sabiduría del Evangelio y la fuerza del Rosario se convierten en tu compañía diaria.
+            Un espacio donde la fuerza del Rosario se convierten en tu compañía diaria.
           </p>
 
           {/* CTA Button */}

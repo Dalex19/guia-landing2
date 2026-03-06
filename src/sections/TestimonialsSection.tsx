@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
   {
-    quote: 'Por fin una app que respeta la tradición y acompaña mi día. La homilía con IA es profunda y accesible.',
+    quote: 'Por fin una app que respeta la tradición y acompaña mi día. Las letanías son profundas y accesibles.',
     name: 'María',
     age: '34',
     avatar: '/images/avatar-01.jpg',
@@ -21,7 +21,7 @@ const testimonials = [
     rating: 5
   },
   {
-    quote: 'La homilía con IA es clara y profunda. Me ha ayudado a entender mejor el Evangelio cada día.',
+    quote: 'Los rosarios y las letanías. Me ha ayudado a entender mejor el Evangelio cada día.',
     name: 'Ana',
     age: '29',
     avatar: '/images/avatar-03.jpg',
