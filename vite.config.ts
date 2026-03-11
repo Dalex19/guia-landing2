@@ -12,4 +12,13 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    proxy: {
+      // forward stripe session creation requests to local express server
+      '/create-checkout-session': {
+        target: 'http://localhost:4242',
+        changeOrigin: true,
+      },
+    },
+  },
 });

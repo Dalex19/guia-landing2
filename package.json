@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start-server": "node server.cjs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -42,6 +43,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
     "embla-carousel-react": "^8.6.0",
     "gsap": "^3.14.2",
     "input-otp": "^1.4.2",
@@ -54,12 +56,14 @@
     "react-resizable-panels": "^4.2.2",
     "recharts": "^2.15.4",
     "sonner": "^2.0.7",
+    "stripe": "^20.4.1",
     "tailwind-merge": "^3.4.0",
     "vaul": "^1.1.2",
     "zod": "^4.3.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@stripe/stripe-js": "^8.9.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
@@ -68,6 +72,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "express": "^4.18.2",
     "globals": "^16.5.0",
     "kimi-plugin-inspect-react": "^1.0.3",
     "postcss": "^8.5.6",

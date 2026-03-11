@@ -24,7 +24,7 @@ const features = [
  
   {
     icon: PrayerIcon,
-    title: 'Rosario Guiado',
+    title: 'Rosario interactivo',
     description: 'Vive el rosario de manera única: escucha la oración con una imagen inspiradora, sigue un modo interactivo donde el rosario se construye paso a paso, o reza acompañado de un hermoso video.',
     color: 'bg-terracotta/10',
     screen: '/images/app-screen-6.jpeg'
